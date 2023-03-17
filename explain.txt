@@ -1,1 +1,5 @@
 Javascript is interpreter (compile runtime & runs the program)
+
+
+Uncaught ReferenceError 
+    => memory is not allocated (variable or function are not defined)

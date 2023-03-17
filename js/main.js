@@ -1,121 +1,30 @@
-// string or number
-//alert("deepak"); // function in-build
-console.log("deepak"); // method in-build
+// array
+// store multiple data
+// collection of data having same or different data type
+// var number = new Array() / []
+// we can add multiple data in array by comma(,)
+// array = key (system defined) :value (user defined)
+// key / index ==> auto gen , and start with 0
+function fun() {}
+var number = [10, 20, 3, 1, 2, 3, 4, 5];
+var array = [1, "a", true, null, [9, 8, 7], fun];
+// add in array
+array.push(10);
+console.log(array);
 
-// store temp => variables
-var text = "deepak";
-console.log(text);
+var student = [30, 25, 60];
 
-// types of data
-// number , string , boolean , undefined , null , object , array , big-init ,symbols
-var name = "Deepak"; // string
-var mobile = 9876567898; // number
-var isAbsent = true; // boolean
-var parentMobile = null; // object
-var email; // undefined
+// JS Object ==> collection data
+// key/ index/ property are user defined
+// var student = new Object()
 
-console.log(typeof parentMobile);
-/*
-    string,number,boolean,object, undefined
-*/
+var student = { age: 30, roll: 25, marks: 60 };
+student.name = "deepak";
+console.log(student);
 
-// operators => Assignment , Arithmetic , Logical , Compare
-// statement => if ... else , switch ,
-// ternary op => () ? :
+var array = [1, "a", true, null, [9, 8, 7], fun];
+// READ DATA FORM array
+// loop , array.method() , index
 
-// Assignment
-var a = 10;
-a += 10; // a = a + 10;
-a -= 10; // a = a - 10;
-a /= 10; // a = a / 10;
-a *= 10; // a = a * 10;
-a %= 10; // a = a % 10;
-
-a++; // post
-++a; // pre //a += 1;// inc a number by one
-
---a; // pre dec
-a--; // post dec //a -= 1;// dec a number by one
-
-// Arithmetic
-var result = 1 + 1;
-var result = 1 - 1;
-var result = 1 * 1;
-var result = 1 / 1;
-var result = 1 % 1;
-
-var a = Number("10"); // explicit type casting
-var b = 5;
-var result = a + b; // * , - , / , % (implicit type casting )  // NaN , 50
-console.log(result);
-
-// Compare
-// a == b , a != b, a > b , a < b , a >= b , a <= b
-// a === b , !== b
-
-// conditional statement
-// if .. else
-// 2 == "2" ===> data
-// 2 === "2" ==> date + type
-if (2 === "2") {
-  // true code block
-  console.log("Yes");
-} else {
-  // false code block
-  console.log("No");
-}
-
-// logical
-// and ==> &&
-// or ==> ||
-// not ==> !
-
-if (2 === 3 || 3 === 4) {
-  console.log("Yes");
-} else {
-  console.log("No");
-}
-
-var isAbsent = true;
-isAbsent = !isAbsent;
-isAbsent = !isAbsent;
-
-console.log(isAbsent);
-
-// statement => if ... else , switch
-// Assignment 10
-var totalAssignment = 10;
-var studentAssignment = 7;
-
-if (totalAssignment === studentAssignment) {
-  console.log("Excellent");
-} else if (studentAssignment < totalAssignment && studentAssignment >= 5) {
-  console.log("good");
-} else {
-  console.log("bad");
-}
-
-// if , if ... else , if ... else if ... else
-// 10 ==> Excellent
-// 10 < and > 5 ==> good
-// 5 < ==> bad
-
-// Assignment-1, Assignment-2, Assignment-3 ===>
-var studentSubmittedAssignment = null;
-// choose value from any one a it ==> switch
-switch (studentSubmittedAssignment) {
-  case 1:
-    // case code
-    console.log("Assignment No One is completed");
-    break;
-  case 2:
-    // case code
-    console.log("Assignment No Two is completed");
-    break;
-  case 3:
-    // case code
-    console.log("Assignment No Three is completed");
-    break;
-  default:
-    console.log("No Assignment is completed");
-}
+// single data => array[index]
+console.log(array[4].length);
