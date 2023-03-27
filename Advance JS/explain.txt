@@ -1,1 +1,42 @@
-ES5
+ES5 
+ES6
+    let const
+    class (oop)
+    destructuring
+    spread operators
+    template string
+    rest parameters
+    generators
+    async / await (promises)
+    local-storage
+    fetch api
+    closures
+    hoisting
+    parallax --> check
+
+Landing Page
+Search Page 
+Cart
+Profile
+Login (Pop / Page)
+Registration (Pop / Page)
+
+Create Registration 
+    User Name
+    Mobile 
+    Gender
+    Address
+    Password 
+    Confirm Password
+    Email
+    City
+    State
+    Pin Code
+
+Login
+    Mobile
+    Password
+
+Customers
+    User Profile
+    My Orders
