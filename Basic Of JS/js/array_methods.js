@@ -86,6 +86,9 @@ list = list.join("");
 console.log(list);
 
 // sort , includes , every , some , reduce
+// reivers, copy --> do checked
 
 // math, date , string
-// reivers, copy --> do checked
+// area of circle = pi * (r*r)
+// pi = 3.
+console.log(Math.PI);
