@@ -1,32 +1,24 @@
-// oop
-// alert();
+// async await
+// synchronous ==> execution program line by line
+// block resource ==>
 
-/// core logic of alert is been overridden
-// js don't have methods over loading
+// asynchronous ==> execution of program as per the method response
+// Event Loop
+// async Web API => DOM , setTimeout , setInterval, Promise (async) , fetch
 
-// class a blue print object
-// class is collection props & methods
-// props => variable
-// method ==> function
-// this ==> current instance of a class
-class PopUp {
-  text = "Welcome to 3ri technology";
-  alert() {
-    setTimeout(() => {
-      console.log(this);
-    }, 1000);
-  }
-}
-// use class methods and property we need object of class
-// PopUp() => constructors
-let popUp = new PopUp();
-popUp.alert();
+// all sync work 1st
+// then async words
 
-//run a code after 1 sec === 1000 ms
+console.log("hello");
+setInterval(() => {
+  console.log("its awesome");
+}, 1000);
+console.log("react");
+// default js => synchronous
 
-// this ==> window ==> Window
+// musicale app
+// searching
 
-// global variables & function are attached to window object
-
-// when we use "function" key word function, scope of "this" will be current function call object
-// when we use "=>" i.e arrow function, scope of "this" will be nearest function definition object
+document.querySelector("button").addEventListener("click", () => {
+  console.log("click");
+});

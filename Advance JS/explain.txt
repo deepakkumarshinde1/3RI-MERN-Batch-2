@@ -40,3 +40,13 @@ Login
 Customers
     User Profile
     My Orders
+
+// interface
+// abstract class & methods
+// public, private, protected
+// method overloading --> we don't have it
+
+// inheritance
+// method overriding 
+// data abstraction
+// polymorphism
