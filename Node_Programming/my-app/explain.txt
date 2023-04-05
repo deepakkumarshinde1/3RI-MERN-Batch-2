@@ -1,0 +1,109 @@
+What is Node JS ? 
+    # Node JS Runtime Environment. for Javascript Code 
+    # Without Browser
+    # We Can Create a server also.
+
+    # Java (JRE & JVM) ==> Apache Tomcat , Nginx 
+    # Python ==> Apache , Nginx
+    # PHP ==> Apache , Nginx
+    # C# ==> IIS
+    # Javascript ==> Node JS ==> revers proxy ==> Apache , Nginx
+
+What Developed with help Node JS ? 
+    # Web Application (Server + Client)
+    # API Server (Server)
+    # Mobile Application (Angular Native, React Native , IONIC)
+    # Desktop Application (Electron JS)
+    # Front End Application (SPA) (React , Angular, Vue)
+
+To check versions
+    node -v
+    Google
+
+What is NPM ? 
+    Node Package Manager 
+    npm -v
+    Github ==> Microsoft
+
+    Manage Node JS Node JS Project 
+
+    React , Express , Axios , Redux-toolkit , Saga ==> Package
+    ==> Add Package , Remove Package , Update Package
+
+Front END Development
+
+Why we use node js for react ? Zero Config
+Why we use node js for angular ? Zero Config
+Why we use node js for vue ? Zero Config
+
+    Development Code ==> Browser
+    Developed Code With Multiple Files (Javascript ES6 or Typescript)
+
+    Development (Node JS Development Server) ===> Browser (No Need Node JS) (Production) 
+             (Javascript ES6 or Typescript)  ===> Javascript ES5
+
+            
+    We use a template (boiler code) ==> pre created structure
+    20% (base setup code) ==> 80% code 
+
+    install react project below is a command 
+
+    npx create-react-app app-name
+    npx ==> node package executor ==> install ==> run ==> uninstall
+
+    Installing 
+        react, 
+        react-dom (Browser), and 
+        react-scripts (Run , Test , Built) with cra-template (create-react-app template)
+
+What is react ? 
+    Create single Page Application.
+    Created by facebook.
+    React Library
+    React version as v18.9
+
+    React is used to create a User Interface (UI) ==> View
+    ==> Flux Architecture
+
+    Framework ==> Angular , SP , Laravel , DJango , Flask , Code Igniter 
+              ==> Architecture (MVVM) , MVC , MVC , MCV , MVC , MVC 
+              ==> M (Model => data) , V (View => UI) , C (Controller => manage project flow)
+
+
+    # React Javascript or Typescript
+    # React Class or Function 
+    # Synthetic Events (vDOM) == connected == rDOM
+    # data immutable 
+    # parent to child you send data ==> unidirectional
+    # integrate any 3rd party lib with react
+        http communication
+        store & state magn
+        event 
+    # upgrade ===> simple
+
+    # SEO (SSR + CSR) ===> Next.js
+
+Development Environment 
+    # Public ==> images , index.html , robots.txt , favicon
+    # src ==> css , background-images , javascript , testing files
+        # global css ==> index.css
+        # main entry(js) file ==> index.js
+
+
+NPM Basic commands
+    ==> npm init   :: create a package.json file
+    ==> npm init -y 
+
+    ==> npm install package-name :: package install (dependency)
+    ==> npm install package-name --save-dev :: package install (dev-dependency)
+    ==> npm i package-name :: package install (dependency)
+    ==> npm i package-name --save-dev :: package install (dev-dependency)
+
+    ==> npm install package-name@1.2.3 ::  install exact package(dev-dependency)
+
+    ==> npm uninstall package-name :: uninstall package
+    ==> npm un package-name :: uninstall package
+
+    ==> npm update package-name :: update package
+
+    ==> npm start ==> start project ( note :: to run this command you need to set a script)
