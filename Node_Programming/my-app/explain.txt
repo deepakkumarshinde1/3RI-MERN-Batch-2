@@ -107,3 +107,48 @@ NPM Basic commands
     ==> npm update package-name :: update package
 
     ==> npm start ==> start project ( note :: to run this command you need to set a script)
+
+#react use vDOM ===> rDOM
+# your project entry file is "index.js"
+
+# components ==> Are Basic Building block or react
+             ==> Name of COmponent must start with capital
+             ==> 3 Part 
+                    ==> import (images , css , javascript package)
+                    ==> logic 
+                            function or class
+                    ==> export
+            ==> return JSX like html
+            ==> JSX :: JavaScript XML which can run html code
+                JSX must have only parent element for each component
+                <> </> ==> JSX Fragment
+            ==> CSS Rules in JSX
+                    class :: className
+                    for :: htmlFor
+                    style="background-color:red" :: style = { {backgroundColor:'red'} }
+
+            ==> {} :: JSX expression (use to write js code)
+            
+difference class & functional component are
+    # class 
+        => we need render method
+        => extends Component to Parent Component
+        => we need constructor & super
+        => "this" keyword for reference
+        => in-build state ==> state full
+
+    # function 
+        => we don't need render method
+        => no need to extends
+        => no need constructor & super
+        => no need "this" keyword for reference
+        => don't state ==> state less
+
+    # legacy project ==> class components
+    # latest project ==> function component
+
+    npm start ==> react-script ==> webpack + babel
+        babel ==> ES6 ==> ES5
+        Webpack => bundles all js file => 1 js file
+                => all css => 1 css file
+
