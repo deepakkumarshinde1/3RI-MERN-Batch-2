@@ -152,3 +152,11 @@ difference class & functional component are
         Webpack => bundles all js file => 1 js file
                 => all css => 1 css file
 
+State / Props / Event 
+component => data in component is store in state
+          => when state will changes component re-renders
+
+Pops 
+    Send data from child
+        string , number , boolean , null , array , object ,  function
+    Props are read only in nature
