@@ -1,0 +1,5 @@
+# Create a product form with reference to 
+    https://fakestoreapi.com/products/1
+
+# Use Bootstrap for design
+# Save Record in list
